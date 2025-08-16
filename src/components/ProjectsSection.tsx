@@ -50,22 +50,22 @@ const projects: Project[] = [
   },
   {
     id: '4',
-    title: 'MindLink Chat',
-    description: 'Encrypted messaging app with end-to-end security and neural-pattern based user authentication.',
+    title: '7-17 Gaming & Laundry',
+    description: 'A Laundry and gaming service web-app.',
     image: '/api/placeholder/600/400',
-    technologies: ['Flutter', 'Dart', 'WebRTC', 'WebSockets', 'Encryption'],
-    liveUrl: 'https://play.google.com/mindlink',
-    githubUrl: 'https://github.com/ryan/mindlink',
+    technologies: ['React', 'Vite', 'Tailwind CSS', 'TypeScript', 'Shadcn-ui'],
+    liveUrl: 'https://7-17-laundry-app.vercel.app/',
+    githubUrl: 'https://github.com/raykaris/7-17-laundry-app',
     category: 'app'
   },
   {
     id: '5',
-    title: 'HyperCloud Platform',
-    description: 'Serverless cloud platform with edge computing capabilities and auto-scaling infrastructure management.',
+    title: 'Shelfie Inventory',
+    description: 'Inventory management web-app.',
     image: '/api/placeholder/600/400',
-    technologies: ['Vue.js', 'Go', 'Docker', 'Kubernetes', 'AWS'],
+    technologies: ['Vite', 'TypeScript', 'React', 'Shadcn-ui', 'Tailwind CSS'],
     liveUrl: 'https://hypercloud.demo',
-    githubUrl: 'https://github.com/ryan/hypercloud',
+    githubUrl: 'https://github.com/raykaris/shelfie-inventory-management-app',
     category: 'web'
   },
   {
