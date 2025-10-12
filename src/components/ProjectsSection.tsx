@@ -40,12 +40,12 @@ const projects: Project[] = [
   },
   {
     id: '3',
-    title: 'Quantum E-Commerce',
-    description: 'Next-generation shopping platform with quantum-inspired recommendations and immersive 3D product previews.',
+    title: 'MotoFeeds Website',
+    description: 'A simple modern website for motoFeeds organization.',
     image: '/api/placeholder/600/400',
-    technologies: ['Next.js', 'Three.js', 'Stripe', 'MongoDB', 'Redis'],
-    liveUrl: 'https://quantum-shop.demo',
-    githubUrl: 'https://github.com/ryan/quantum-shop',
+    technologies: ['React', 'CSS', 'JavaScript', 'PostgreSQL'],
+    liveUrl: 'https://motofeeds.vercel.app',
+    githubUrl: 'https://github.com/raykaris/motofeeds-react-frontend',
     category: 'web'
   },
   {
