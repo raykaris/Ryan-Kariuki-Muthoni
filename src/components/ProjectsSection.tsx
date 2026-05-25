@@ -60,24 +60,33 @@ const projects: Project[] = [
   },
   {
     id: '5',
-    title: 'Shelfie Inventory',
-    description: 'Inventory management web-app.',
+    title: 'Huduma Assistant',
+    description: 'AI-Powered Huduma copy website, with multilingual feature that translates Huduma services into Kikuyu and Swahili.',
     image: '/api/placeholder/600/400',
     technologies: ['Vite', 'TypeScript', 'React', 'Shadcn-ui', 'Tailwind CSS'],
-    liveUrl: 'https://hypercloud.demo',
-    githubUrl: 'https://github.com/raykaris/shelfie-inventory-management-app',
+    liveUrl: 'https://huduma-assistant.vercel.app/',
+    githubUrl: 'https://github.com/raykaris/huduma-assistant',
     category: 'web'
   },
   {
     id: '6',
-    title: 'NeoBank Mobile',
-    description: 'Digital banking app with biometric security, cryptocurrency support, and AI-powered financial insights.',
+    title: 'JobFind',
+    description: 'AI-Powered Job listing platform.',
     image: '/api/placeholder/600/400',
-    technologies: ['React Native', 'Blockchain', 'Biometrics', 'GraphQL'],
-    liveUrl: 'https://neobank.demo',
-    githubUrl: 'https://github.com/ryan/neobank',
-    category: 'app'
-  }
+    technologies: ['React', 'Vite' , 'TypeScript'],
+    liveUrl: 'https://jobfind-sigma.vercel.app/',
+    githubUrl: 'https://github.com/raykaris/jobfind',
+    category: 'web'
+  },
+  {
+    id: '7',
+    title: 'Cinematch',
+    description: 'AI-Powered movie recommendation web app.',
+    image: '/api/placeholder/600/400',
+    technologies: ['React', 'Vite' , 'TypeScript'],
+    liveUrl: 'https://cinematch-jet.vercel.app/',
+    githubUrl: 'https://github.com/raykaris/film-friend',
+    category: 'web'
 ];
 
 const ProjectCard: React.FC<{ project: Project; index: number }> = ({ project, index }) => {
