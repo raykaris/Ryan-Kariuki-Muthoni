@@ -86,7 +86,18 @@ const projects: Project[] = [
     technologies: ['React', 'Vite' , 'TypeScript'],
     liveUrl: 'https://cinematch-jet.vercel.app/',
     githubUrl: 'https://github.com/raykaris/film-friend',
+    category: 'app'
+  },
+  {
+    id: '8',
+    title: 'Solace',
+    description: 'AI-Powered grief partner that gives users company during grief moments.',
+    image: '/api/placeholder/600/400',
+    technologies: ['Vite', 'TypeScript', 'React'],
+    liveUrl: 'https://solace-tan.vercel.app/',
+    githubUrl: 'https://github.com/raykaris/grief-partner',
     category: 'web'
+  }
 ];
 
 const ProjectCard: React.FC<{ project: Project; index: number }> = ({ project, index }) => {
